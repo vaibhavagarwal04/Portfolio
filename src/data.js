@@ -1,0 +1,32 @@
+export const products=[
+    {
+        id:1,
+        img:"https://images.unsplash.com/photo-1747077138172-590c023ec442?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D",
+        link:"https://github.com/vaibhavagarwal04/To-Do-list.git",
+    },
+    {
+        id:2,
+        img:"https://images.unsplash.com/photo-1746980776869-0443aaffc7f2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8",
+        link:"https://github.com/vaibhavagarwal04/spotify-clone.git"
+    },
+    {
+        id:3,
+        img:"https://images.unsplash.com/photo-1746980372130-27b32e22b5ad?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        link:"https://github.com/vaibhavagarwal04/basic-ludo.git",
+    },
+    {
+        id:4,
+        img:"https://images.unsplash.com/photo-1747582395985-62e36590b736?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
+        link:"https://github.com/vaibhavagarwal04/Dog-Age.git"
+    },
+    {
+        id:5,
+        img:"https://images.unsplash.com/photo-1747586181200-96551a018ed1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D",
+        link:"#",
+    },
+    {
+        id:5,
+        img:"https://images.unsplash.com/photo-1747586181200-96551a018ed1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D",
+        link:"#",
+    }
+]
