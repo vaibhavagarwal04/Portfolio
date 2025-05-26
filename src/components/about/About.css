@@ -39,8 +39,8 @@
     object-fit: cover;
 }
 .a-award-img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 250px;
     border-radius: 20px;
 }
 .a-title{
@@ -63,4 +63,26 @@
 .a-award-title{
     font-weight: bold;
     color: #d53131;
+}
+
+@media screen and (max-width:480px){
+    .a{
+        flex-direction: column;
+        text-align: center; 
+        margin-top: 50px;
+    }
+    .a-left{
+        width: 100%;
+    }
+
+    .a-card{
+        height: 30vh;
+    }
+    .a-card.bg,.a-award{
+        display: none;
+    }
+
+    .a-right{
+        padding: 20px;
+    }
 }

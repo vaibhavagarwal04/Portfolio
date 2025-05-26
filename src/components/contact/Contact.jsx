@@ -2,14 +2,19 @@ import "./Contact.css";
 import Email from "../../img/Email.svg";
 import Address from "../../img/Address.svg";
 import Phone from "../../img/Phone.svg";
-import { useRef, useState } from "react";
+import { useContext, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { ThemeContext } from "../../context";
 
 const Contact = () => {
     const formref = useRef();
+    const [done, setDone] = useState(false);
+    const theme = useContext(ThemeContext);
+    const darkMode = theme.state.darkMode;
 
-    const[done,setDone]=useState(false);
-
+    const handleClick = () => {
+        theme.dispatch({ type: "TOGGLE" });
+    };
     const handleSubmit = (e) => {
         e.preventDefault();
         emailjs
@@ -58,31 +63,29 @@ const Contact = () => {
                         comes along
                     </p>
                     <form ref={formref} onSubmit={handleSubmit}>
-                        <input
+                        <input style={{backgroundColor:darkMode && "#333"}}
                             type="text"
                             placeholder="Name"
                             name="user_name"
                         />
-                        <input
+                        <input style={{backgroundColor:darkMode && "#333"}}
                             type="text"
                             placeholder="Subject"
                             name="user_subject"
                         />
-                        <input
+                        <input style={{backgroundColor:darkMode && "#333"}}
                             type="text"
                             placeholder="Email"
                             name="user_email"
                         />
-                        <textarea
+                        <textarea style={{backgroundColor:darkMode && "#333"}}
                             name="message"
                             id=""
                             rows="5"
                             placeholder="Write message"
                         ></textarea>
                         <button>Submit</button>
-                        <div className="done">
-                            {done && "Thank You!"}
-                        </div>
+                        <div className="done">{done && "Thank You!"}</div>
                     </form>
                 </div>
             </div>

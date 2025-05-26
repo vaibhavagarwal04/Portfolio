@@ -1,5 +1,5 @@
 import "./intro.css";
-import me from "../../img/me3.avif";
+import me from "../../img/me.JPG";
 
 function Intro() {
     return (
@@ -10,7 +10,7 @@ function Intro() {
                     <h1 className="i-name">Vaibhav Agarwal</h1>
                     <div className="i-title">
                         <div className="i-title-wrapper">
-                            <div className="i-title-item">Photographer</div>
+                            <div className="i-title-item">Designer</div>
                             <div className="i-title-item">Web developer</div>
                         </div>
                     </div>
