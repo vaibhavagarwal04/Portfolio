@@ -1,5 +1,5 @@
 *{
-    font-size: 25px;
+    font-size: 15px;
 }
 .a{
     height: 100vh;
@@ -85,4 +85,8 @@
     .a-right{
         padding: 20px;
     }
+}
+.giticon{
+    color: #333;
+    font-size: large;
 }
